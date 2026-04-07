@@ -1,0 +1,36 @@
+baseURL = "https://alfieamayo.github.io/operations-portfolio/"
+languageCode = "en-us"
+title = "Alfie Amayo — Operations Portfolio"
+theme = "PaperMod"
+
+[params]
+  description = "Operational investigations portfolio — Seekers Spirits and Red Lantern Dining"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  math = false
+  mermaid = true
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+    codeFences = true
+    guessSyntax = true
+
+[[menus.main]]
+  name = "Seekers Spirits"
+  url = "/seekers/"
+  weight = 1
+
+[[menus.main]]
+  name = "Red Lantern Dining"
+  url = "/redlantern/"
+  weight = 2
+
+[[menus.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
