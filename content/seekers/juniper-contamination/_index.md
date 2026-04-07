@@ -17,7 +17,7 @@ The investigation confirmed the contamination was isolated to a single lot. I qu
 
 ---
 
-[Systems Context]({{< ref "/seekers/juniper-contamination/systems-context/index.md" >}})
+[Systems Context]({{< ref "/seekers/juniper-contamination/systems-context/" >}}) | [Discovery Timeline]({{< ref "/seekers/juniper-contamination/discovery-timeline/" >}}) | [Root Cause Analysis]({{< ref "/seekers/juniper-contamination/root-cause-analysis/" >}})
 
 ---
 
