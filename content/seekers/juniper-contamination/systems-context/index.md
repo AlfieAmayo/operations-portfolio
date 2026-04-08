@@ -5,7 +5,10 @@ layout: "single"
 
 ## Operations Overview
 
-At the time of this incident, Seekers Spirits produced three core gin SKUs on a single 300L still: Seekers Mekong Dry Gin, Seekers Mekong Gold Gin, and Jason Kong Butterfly Pea Gin. Quality control was my responsibility end to end, from tasting through to final release decision. The production flow followed a simple sequence: ingredients received and visually inspected, batches produced, product rested, and finished product assessed at post-production QC before release. There were no formal quality gates upstream of production and no automated monitoring between stages. Any failure introduced at the ingredient stage would pass through every production stage before it could be caught.
+At the time of this incident, Seekers Spirits produced three core gin SKUs on a single 300L still: Seekers Mekong Dry Gin, Seekers Mekong Gold Gin, and Jason Kong Butterfly Pea Gin. Quality control (QC) was my responsibility end to end, from tasting through to final release decision. The production flow followed a simple sequence: ingredients received and visually inspected, batches produced, product rested, and finished product assessed at post-production QC before release. There were no formal quality gates upstream of production and no automated monitoring between stages. Any failure introduced at the ingredient stage would pass through every production stage before it could be caught.
+
+Production and inventory records were held in spreadsheets at the time of this incident. The database queries referenced across these pages reproduce the investigation using a PostgreSQL schema built after the incident as part of this portfolio. Every query result is reproducible from that schema.
+
 
 ## Ingredient Supply Chain
 
