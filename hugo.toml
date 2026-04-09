@@ -30,7 +30,7 @@ theme = "PaperMod"
 
 [[menus.main]]
   name = "Red Lantern Dining"
-  url = "/redlantern/"
+url = "/red-lantern/"
   weight = 2
 
 [[menus.main]]

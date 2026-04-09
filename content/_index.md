@@ -12,10 +12,10 @@ The Red Lantern Dining section covers the supply chain visibility programme I bu
 
 ## Seekers Spirits
 
-[View section →](/seekers/)
+[View section →]({{< ref "/seekers/" >}})
 
 ---
 
 ## Red Lantern Dining
 
-[View section →](/red-lantern/)
+[View section →]({{< ref "/red-lantern/" >}})
