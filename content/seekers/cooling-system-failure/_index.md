@@ -17,7 +17,7 @@ Detection occurred 14 days after production, when QC assessment identified a dev
 
 ---
 
-[Systems Context]({{< ref "/seekers/cooling-system-failure/systems-context/" >}}) | [Discovery Timeline]({{< ref "/seekers/cooling-system-failure/discovery-timeline/" >}}) | [Root Cause Analysis]({{< ref "/seekers/cooling-system-failure/root-cause-analysis/" >}})
+[Systems Context]({{< ref "/seekers/cooling-system-failure/systems-context/" >}}) | [Discovery Timeline]({{< ref "/seekers/cooling-system-failure/discovery-timeline/" >}}) | [Root Cause Analysis]({{< ref "/seekers/cooling-system-failure/root-cause-analysis/" >}}) | [Impact and Response]({{< ref "/seekers/cooling-system-failure/impact-and-response/" >}}) | [Structural Improvements]({{< ref "/seekers/cooling-system-failure/structural-improvements/" >}})
 
 ---
 
