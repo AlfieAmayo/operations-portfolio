@@ -21,4 +21,4 @@ The investigation confirmed the contamination was isolated to a single lot. I qu
 
 ---
 
-[Download postmortem (PDF)](/pdfs/juniper-contamination-postmortem-v5.pdf)
+[Download Postmortem (PDF)](/operations-portfolio/pdfs/Juniper_Contamination_Investigation_Postmortem.pdf)

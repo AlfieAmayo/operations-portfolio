@@ -22,4 +22,4 @@ Detection occurred 14 days after production, when QC assessment identified a dev
 ---
 
 
-[Download Postmortem V2 (PDF)](/pdfs/Cooling_System_Failure_Postmortem_V2.pdf) | [Download Reconstruction V5 (PDF)](/pdfs/Cooling_System_Failure_Reconstruction_V5.pdf)
+[Download Postmortem (PDF)](/operations-portfolio/pdfs/Cooling_System_Failure_Investigation_Postmortem.pdf) | [Download Reconstruction (PDF)](/operations-portfolio/pdfs/Cooling_System_Failure_Investigation_Reconstruction.pdf)

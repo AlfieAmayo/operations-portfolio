@@ -8,11 +8,9 @@ One batch was affected. Batch 50, Seekers Mekong Dry Gin, produced on 29 May 202
 
 ## Blast Radius
 
-At containment, one batch had been produced against a planned run of five. Without intervention, batches 2 through 5 would have run on the same system, with the same temperature drift. Each would have added compromised volume to the shipment. The flavour deviation would not have been detectable during the run and would only surface at post-production QC, at least two weeks later. Continuing to produce under the same system would have consumed both raw materials and shipment time, leaving no viable path to recover before shipment.
+At containment, one batch had been produced against a total of five. If production had continued, batches 2 through 5 would have run under the same conditions. This would have consumed raw materials and reduced the time available to recover before shipment. Containment reduced the blast radius from five batches to one.
 
-Containment reduced the blast radius from five batches to one.
-
-The blast radius was determined by when detection occurred relative to the production schedule. The outcome would have been the same. Only the number of compromised batches would have increased.
+The blast radius was set by when detection occurred relative to the production schedule.
 
 ## Containment Decision
 
