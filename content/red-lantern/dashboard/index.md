@@ -12,5 +12,4 @@ A query panel provides direct access to five operational questions: which interv
 
 The data covers Apex Beverage (Factory A), Crest Bottling (Factory B), and seven suppliers. All figures are real. Client and supplier names are fictionalised.
 
-[Open the live dashboard →](https://your-vercel-url.vercel.app)
-
+[Open the live dashboard →](https://kk-dashboard-wine.vercel.app)
