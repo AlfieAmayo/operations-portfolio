@@ -3,13 +3,11 @@ title: "Structural Improvements"
 layout: single
 ---
 
-## Changes Introduced
-
 Two structural changes came out of this incident.
 
-The first was incoming lot validation. Every new botanical lot is tested at intake by distilling it on its own and comparing the result to the house baseline before it enters production. This ensures the ingredient tastes as expected before it is used in a full batch. Distillation isolates the flavour, making differences easier to detect. If the flavour is in line with the baseline, the lot is approved for use in recipes. If it deviates, it is rejected.
+The first was incoming lot validation. Every new botanical lot is now tested at intake through single botanical distillation against the house baseline before it enters production. This moved detection upstream to the point where the ingredient could be rejected before entering production. Lots that match the baseline are approved for use. Lots that deviate are rejected.
 
-The second was a change to the quality control process. Each batch is now compared against a fixed, documented reference batch, a known good standard. Before this, batches were compared against a reference bottle selected from available stock, which meant each comparison used a different reference, allowing flavour to drift. A small, consistent change in flavour could move with it and pass unnoticed across multiple batches.
+The second was a change to the quality control process. Each batch is now compared against a fixed, documented reference batch. Before this, batches were compared against a reference bottle selected from available stock, so the comparison point changed over time. This allowed gradual flavour drift to pass unnoticed across multiple batches.
 
 ---
 
@@ -46,7 +44,7 @@ ORDER BY b.batch_id, bo.sku;
 
 Nine bottling runs. Four batches. Three products. 715 bottles quarantined.
 
-The query runs in seconds because batch_ingredients was modelled as a junction table linking stock receipts to batches at the lot level. That schema decision makes the blast radius immediately visible. Without it, the same question requires manual cross-referencing of stock receipts, batch logs, production records, and bottling records. Under time pressure, against paper records, with no guarantee of completeness.
+The query runs in seconds because batch_ingredients was modelled as a junction table linking stock receipts to batches at the lot level. That schema decision makes the blast radius immediately visible. Without it, the same question would have to be answered manually by cross-referencing stock receipts, batch logs, production records, and bottling records under time pressure, against paper records, with no guarantee of completeness.
 
 ---
 
@@ -58,11 +56,11 @@ The query runs in seconds because batch_ingredients was modelled as a junction t
 
 ---
 
-## What I Would Do Differently
+## Assumptions That Failed
 
-I assumed ingredient quality could be trusted at receipt and verified later through batch-level quality control. That assumption delayed detection, allowing a contaminated lot to enter production and propagate across four batches before it was identified.
+I assumed ingredient quality at receipt was good enough and that batch-level quality control would catch any problem later. That assumption delayed detection and allowed a contaminated lot to propagate across four batches.
 
-I also assumed that comparing batches against available stock was sufficient. In practice, this created a shifting standard, allowing small deviations to persist and compound across consecutive batches without ever triggering a failed check.
+I also assumed that comparing batches against available stock was sufficient. In practice, this created a shifting standard, so small deviations could pass across consecutive batches without triggering a failed check.
 
 ---
 
