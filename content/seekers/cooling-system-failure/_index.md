@@ -4,15 +4,15 @@ title: "Cooling System Failure"
 layout: "single"
 ---
 
-On 29 May 2023, batch 50, a Seekers Mekong Dry Gin run on a 2000L still, failed quality control. The failure was a cooling system issue caused by scale mismatch. The 2000L still was connected to a cooling reservoir designed for the 300L legacy system. Under load, coolant temperature increased by 1 to 2°C per hour. Temperature was displayed throughout, but nothing retained it and nothing triggered an alert.
+On 29 May 2023, Batch 50, a Seekers Mekong Dry Gin batch produced on the 2000L still, failed quality control (QC). The cause was a cooling system mismatch. The 2000L still was connected to a cooling reservoir built for the 300L legacy system. Over the course of the run, coolant temperature rose by 1 to 2°C per hour. Temperature was visible during production, but it was not recorded and no alert was triggered.
 
-Detection occurred 14 days after production, when QC assessment identified a deviation from the expected flavour profile. By then, botanicals for a second run had already been staged. Containment halted preparation immediately, capping the blast radius at one batch. Without that intervention, five batches would have run under the same conditions before the first failure surfaced. The blast radius was not determined by the failure itself, but by the absence of detection during production, allowing temperature drift to accumulate across the full run.
+The failure was detected 14 days later, when QC identified a deviation from the expected flavour profile. By then, botanicals for a second run had already been staged. Preparation was halted immediately, limiting the blast radius to one batch. During the run itself, temperature drift remained visible but unrecorded. Without that intervention, five batches could have been produced under the same conditions before the first failure was identified.
 
-**Detection latency:** 14 days. Temperature was visible on the dashboard during the run. No data was retained and no threshold was monitored. The single surviving data point was 61.8°C, noted manually at run completion.
+**Detection latency:** 14 days. Distillate output temperature was visible on the dashboard during the run, but no data was retained and no threshold was monitored. The only surviving data point was 61.8°C, noted manually at run completion.
 
-**Blast radius:** One batch quarantined. Five planned. Containment at the earliest viable intervention point prevented four additional batches from being committed under the same conditions.
+**Blast radius:** One batch quarantined. Five planned. Stopping before the next run began prevented four additional batches from being produced  under the same conditions.
 
-**What changed:** Coolant reservoir temperature is now instrumented and monitored during production. A monthly equipment monitoring checklist covers all production assets.
+**What changed:** Coolant reservoir temperature is now instrumented and monitored during production.
 
 
 ---
