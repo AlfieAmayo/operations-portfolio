@@ -2,38 +2,37 @@
 title: "Root Cause Analysis"
 layout: single
 ---
-
 ## Root Cause
 
-The root cause was a contaminated juniper lot, PDI-JNP-220620, received from a Vietnam-based botanical supplier on 20 June 2022.
+The root cause was a contaminated juniper lot, PDI-JNP-220620, received from a Vietnam-based supplier on 20 June 2022. The specific nature of the contamination was not determined. The sensory signature pointed to either microbial activity or oxidative degradation during storage or transit. No lab analysis was conducted to distinguish between the two. The investigation confirmed that the failure was upstream. The juniper arrived compromised. No error was identified in distillery handling, production, or quality control (QC) execution.
 
-The specific nature of the contamination wasn't determined. The sensory signature, a musty undertone and atypical bitterness, pointed to either microbial activity or oxidative degradation during storage or transit. No lab analysis was done to distinguish between the two. What the investigation did confirm is that the failure was upstream. The juniper arrived compromised. Everything done with it in the distillery was correct.
+The main failure was not the contamination itself, but the lack of detection at intake. PDI-JNP-220620 moved through intake, production, and QC across four batches before the deviation was caught. There was no mechanism to intercept it earlier. Detection depended on chance, not design.
 
-More precisely, the contamination itself wasn't the core failure. The core failure was the absence of any detection at receipt. PDI-JNP-220620 moved through intake, production, and QC across four batches before the deviation was caught. The system had no way to intercept it earlier. Detection depended on chance, not design.
+## Five Whys
 
-## Contributing Factors
+**1. Why did contaminated juniper pass QC across four consecutive batches?**
 
-Four conditions allowed the contamination to run undetected for 56 days.
+The contamination was subtle. Each batch was assessed against a reference bottle selected at the time from available finished goods, rather than against a fixed baseline. Because the reference batch changed from one assessment to the next, small shifts across consecutive batches were harder to detect.
 
-**No incoming inspection standard**
+**2. Why was each batch assessed against a changing reference batch rather than a fixed baseline?**
 
-There was no defined standard for incoming ingredient inspection. Botanicals were accepted on visual inspection alone, with no sensory check at receipt and no comparison against prior deliveries. Under this process, the contamination wasn't detectable.
+The quality control process did not require a fixed reference bottle, so the assessor could choose any reference bottle from finished goods at the time of assessment.
 
-**No flavour baseline**
+**3. Why did the quality control process not require a fixed reference bottle?**
 
-There was no flavour baseline for incoming juniper. Without a fixed reference profile, lot-to-lot variation couldn't be measured. Drift only became visible in retrospect, after four batches.
+The process was built to judge whether a batch was acceptable, not to detect slow drift across batches caused by lot-to-lot ingredient variation. That risk was not part of the control design.
 
-**No cross-batch comparison**
+**4. Why was ingredient variation not recognised as a risk?**
 
-Each batch was assessed on its own, against a changing reference rather than a fixed baseline. Without a side-by-side view across batches, the drift wasn't visible. With repeated exposure, it became normalized.
+Supplier consistency was assumed rather than verified. Because the supplier had not caused a quality issue before, lot-to-lot variation was not treated as a failure mode. As a result, there was no intake check to test that assumption.
 
-**Contamination below detection threshold**
+**5. Why was there no intake check to test that assumption?**
 
-Expression varied across batches: 20 and 22 were strongest, 21 moderate, and 19 the mildest. The deviation was present throughout, but never strong enough in any single assessment to trigger a quarantine.
+Supplier selection was based on price and availability. Quality and consistency were not formally assessed, and there was no requirement to verify them at intake or during the relationship. As a result, no detection step was built into the intake process.
 
----
+## Structural Root Cause
 
-These factors didn't operate independently. Each one made detection less likely, and together they made it impossible. A quality control check at the end of production couldn't catch a problem that entered upstream. The only place it could have been caught was at receipt, and no such control existed.
+Supplier quality and consistency were not treated as reliability requirements. The system relied on an assumption of consistency that was never tested, so no detection step was built into intake. Final QC became the only point where problems could be found, and it was not designed to catch this type of failure.
 
 ---
 
