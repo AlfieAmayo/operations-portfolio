@@ -1,5 +1,5 @@
 ---
-title: "RTD Beverage Programme"
+title: "Programme Review"
 ---
 
 ## The Programme
@@ -31,3 +31,6 @@ This single-location trial was the core feedback loop, keeping the blast radius 
 The dashboard reconstructs the full order history across both drinks: 18 orders, with Ginger Lime Sparkling at 10 (GLS-001 to GLS-010) and Lychee Yuzu Soda at 8 (LYS-001 to LYS-008).
 
 It covers COGS trajectory, supplier reliability, and five investigation queries. OTIF is the primary delivery metric throughout. The dashboard is deployed live on Vercel as a permanent, queryable record of the programme.
+
+
+Back to [Red Lantern Dining]({{< ref "/red-lantern/" >}})

@@ -8,7 +8,7 @@ The investigations are backed by a PostgreSQL database built retrospectively fro
 
 [View the database repository →](https://github.com/AlfieAmayo/seekers-db)
 
----
+<hr>
 
 [Juniper Contamination]({{< ref "/seekers/juniper-contamination/" >}})
 
