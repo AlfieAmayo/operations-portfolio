@@ -6,21 +6,21 @@ Four changes followed the incident. Each addresses a specific failure mode ident
 
 ## Detection
 
-### Post-condensation temperature threshold defined and monitored
+### Coolant reservoir temperature instrumented and monitored
 
-A temperature threshold of 50°C was set for distillate output on every batch. This was the highest temperature in the 300L legacy still's steady-state range, which had consistently produced acceptable quality. No baseline existed yet for the 2000L still, so this was used as the operating limit. Above this level, the cooling system is no longer removing heat effectively, and flavour quality degrades.
+A 50°C threshold has been set for coolant reservoir temperature across all batches. This threshold was taken from the highest recorded temperature on the 300L still, which consistently produces spirit that passes quality control. Above this level, cooling becomes less effective and product quality begins to drop.
 
-During batch 50, temperature drift was visible during the batch run but was not retained or acted on. Any deviation now requires immediate investigation while the batch is still active. This includes checking coolant reservoir temperature and confirming that the chiller is operating as expected.
+During Batch 50, distillate output temperature was visible during the run and acted as an indicator of the cooling reservoir’s performance. It was not recorded or acted on. Coolant reservoir temperature was not measured at all. Any deviation now requires immediate investigation while the batch is still active. This includes checking reservoir temperature and confirming that the chiller is operating as expected.
 
 ## Decision Constraints
 
-### Hard stop on weak quality signals before raw material commitment
+### Hard stop on weak signals before raw material commitment
 
-Any weak signal, sensory or operational, is now sufficient to halt production before raw materials enter the still, because once added the batch is economically committed and cannot be recovered. During the incident, the temperature drift in the Orange Liqueur batch was noted but not investigated before the gin batch began. By the time the deviation surfaced, raw materials had already been committed and options had narrowed. The stop is now a constraint, not a judgment call, and irreversible commitment is delayed until the issue is understood.
+Any weak signal, sensory or operational, is now enough to halt production before raw materials enter the still. Once added, the batch is committed and cannot be recovered. The stop is a fixed rule, not a judgment call. This delays irreversible commitments until the issue is understood, while action is still possible.
 
 ### Explicit escalation trigger for threshold breaches
 
-Final authority to halt production remains with a single operator, but the trigger for formal review is now explicit, and not left to individual judgment. Any defined threshold breach, such as the 50°C temperature limit, now triggers immediate review. During the incident, temperature changes were noted and assessed unilaterally, with no mechanism to force review. When one person holds both the signal and the decision, weak signals can be rationalised away. The trigger now forces review and removes reliance on individual judgment.
+One person holds final authority to halt production, but the trigger for review is now fixed instead of being decided in the moment. Any threshold breach requires a documented review before the run continues. When one person both sees the signal and makes the decision, weak signals are easier to dismiss. The documented review removes that reliance.
 
 ## Execution Controls
 
