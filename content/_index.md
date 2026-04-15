@@ -1,6 +1,3 @@
----
-title: "About This Portfolio"
----
 
 This portfolio documents operational work across two contexts: a craft distillery I helped build and operate in Phnom Penh, Cambodia, and an RTD beverage programme I built and ran for a franchise dining group. Each piece focuses on a specific failure, a visibility or detection gap, and the systems I built in response. The work is real. Where names are fictionalised, the operational data is not.
 
