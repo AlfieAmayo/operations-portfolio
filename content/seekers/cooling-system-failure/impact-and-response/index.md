@@ -2,9 +2,46 @@
 title: "Impact and Response"
 ---
 
+<div class="inline-title">
+  <a href="/operations-portfolio/seekers/cooling-system-failure/" class="parent-title">Cooling System Failure</a>
+  <span class="title-slash">/</span>
+  <span class="child-title">Impact and Response</span>
+</div>
+
+<nav class="subpage-nav">
+  <a href="/operations-portfolio/seekers/cooling-system-failure/systems-context/" class="snav-item">Systems Context</a>
+  <a href="/operations-portfolio/seekers/cooling-system-failure/discovery-timeline/" class="snav-item">Discovery Timeline</a>
+  <a href="/operations-portfolio/seekers/cooling-system-failure/root-cause-analysis/" class="snav-item">Root Cause Analysis</a>
+  <a href="/operations-portfolio/seekers/cooling-system-failure/impact-and-response/" class="snav-item active">Impact and Response</a>
+  <a href="/operations-portfolio/seekers/cooling-system-failure/structural-improvements/" class="snav-item">Structural Improvements</a>
+</nav>
+
+<div class="signals-2x2">
+  <div class="signal-cell">
+    <div class="signal-label">Quarantined</div>
+    <div class="signal-value">1 batch</div>
+    <div class="signal-sub">Batch 50 — never shipped</div>
+  </div>
+  <div class="signal-cell">
+    <div class="signal-label">Potential radius</div>
+    <div class="signal-value">5 batches</div>
+    <div class="signal-sub">Stopped before Batch 51</div>
+  </div>
+  <div class="signal-cell">
+    <div class="signal-label">Customer exposure</div>
+    <div class="signal-value-sm">Zero</div>
+    <div class="signal-sub">Contained pre-bottling</div>
+  </div>
+  <div class="signal-cell">
+    <div class="signal-label">Response time</div>
+    <div class="signal-value-sm">Same day</div>
+    <div class="signal-sub">Last reversible point</div>
+  </div>
+</div>
+
 ## Affected Batch
 
-**One batch was affected**. Batch 50, a Seekers Mekong Dry Gin batch produced on the 2000L still on 29 May 2023, failed QC and was quarantined. It never shipped. Post-incident analysis confirmed temperature drift of 1 to 2°C per hour, rising by approximately 24°C across the 12-hour run.
+One batch was affected. Batch 50, a Seekers Mekong Dry Gin batch produced on the 2000L still on 29 May 2023, failed QC and was quarantined. It never shipped. Post-incident analysis confirmed temperature drift of <span class="stat">1–2°C/hr</span>, rising by approximately <span class="stat">24°C</span> across the 12-hour run.
 
 ## Blast Radius
 
@@ -14,7 +51,10 @@ At the point of containment, one batch had been produced out of a planned five. 
 
 At 10:30 AM on 12 June, the deviation had been confirmed as real and affecting the full batch, which was over 1000L, but the root cause was still unknown. Batch 50 was resting in tanks. Botanicals for Batch 51 had been staged and weighed but not yet committed. No bottling, labelling, or outbound movement had occurred. Customer exposure was zero. No irreversible commitments had been made.
 
-The decision to contain was made before the root cause was confirmed. Pausing carried a bounded cost: one batch lost and less time to recover. Continuing carried an unbounded cost: each additional run added more compromised volume, with no guarantee the issue would be identified before it repeated.
+<div class="decision-callout">
+  <div class="decision-label">Decision</div>
+  <div class="decision-text">Pausing carried a bounded cost: one batch lost and less time to recover. Continuing carried an unbounded cost: each additional run added more compromised volume, with no guarantee the issue would be identified before it repeated. I contained before root cause was confirmed.</div>
+</div>
 
 I locked the Batch 50 tanks, halted Batch 51 preparation, and discarded the staged botanicals due to their short usability window. That kept the issue to one batch, at the last point where intervention was still possible.
 
@@ -23,7 +63,3 @@ I locked the Batch 50 tanks, halted Batch 51 preparation, and discarded the stag
 All downstream steps were still reversible at the point of containment. No product had been bottled, labelled, or moved. Exposure remained zero. The only losses were one batch and the discarded botanicals from Batch 51.
 
 Production restarted on the 300L legacy still on 13 June to protect the shipment timeline. The root cause of the 2000L failure was confirmed later, after shipment.
-
----
-
-[Back to Cooling System Failure]({{< ref "/seekers/cooling-system-failure/" >}})

@@ -1,0 +1,54 @@
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-left">
+      <div class="footer-name">Alfie Amayo</div>
+      <div class="footer-location">OPERATIONS · NEW YORK / SOUTHEAST ASIA</div>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/AlfieAmayo" class="footer-link" target="_blank">GitHub →</a>
+      <a href="https://kk-dashboard-wine.vercel.app" class="footer-link live" target="_blank">Dashboard ↗</a>
+      <a href="https://www.linkedin.com/in/alfieamayo" class="footer-link" target="_blank">LinkedIn →</a>
+    </div>
+  </div>
+  <div class="footer-copy">© 2026 Alfie Amayo</div>
+</footer>
+
+{{- if (not .Site.Params.disableScrollToTop) }}
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+    <path d="M12 6H0l6-6z" />
+  </svg>
+</a>
+{{- end }}
+
+<script>
+  let menu = document.getElementById('menu')
+  if (menu) {
+    window.addEventListener('scroll', () => {
+      menu.scrollLeft = document.body.scrollTop;
+    })
+  }
+</script>
+{{- if (not .Site.Params.disableScrollToTop) }}
+<script>
+  var mybutton = document.getElementById("top-link");
+  window.onscroll = function () {
+    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+      mybutton.style.visibility = "visible";
+      mybutton.style.opacity = "1";
+    } else {
+      mybutton.style.visibility = "hidden";
+      mybutton.style.opacity = "0";
+    }
+  };
+</script>
+{{- end }}
+{{- if site.Config.Services.GoogleAnalytics.ID }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.Config.Services.GoogleAnalytics.ID }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.Config.Services.GoogleAnalytics.ID }}');
+</script>
+{{- end }}

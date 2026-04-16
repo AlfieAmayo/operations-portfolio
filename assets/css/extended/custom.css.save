@@ -21,7 +21,6 @@
 :root {
   --theme: #faf9f7;
   --entry: #faf9f7;
---main-width: 900px;
 }
 
 body {
@@ -39,7 +38,7 @@ body {
 /* Body text */
 .post-content p,
 .post-content li {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.8;
   color: #444;
 }
@@ -54,11 +53,11 @@ h1.post-title {
 
 /* H2 subheadings */
 .post-content h2 {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   color: #111;
   letter-spacing: -0.01em;
-  margin-top: 3.0rem;
+  margin-top: 1.75rem;
   margin-bottom: 0.75rem;
   border: none;
 }
@@ -323,7 +322,7 @@ p.location-stamp {
 }
 
 .incident-title {
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 500;
   color: #111;
   margin-bottom: 0.25rem;
@@ -331,7 +330,7 @@ p.location-stamp {
 }
 
 .incident-desc {
-  font-size: 15px;
+  font-size: 13px;
   color: #555;
   line-height: 1.6;
 }
@@ -404,8 +403,7 @@ p.location-stamp {
 
 .signal-label {
   font-family: var(--font-mono), monospace;
-  font-size: 12px;
-font-weight: 500;
+  font-size: 10px;
   color: #999;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -421,7 +419,7 @@ font-weight: 500;
 }
 
 .signal-value-sm {
-  font-size: 22px;
+  font-size: 14px;
   font-weight: 500;
   color: #b89a6a;
   letter-spacing: -0.01em;
@@ -430,8 +428,7 @@ font-weight: 500;
 }
 
 .signal-sub {
-  font-size: 12px;
-font-weight: 500;
+  font-size: 11px;
   color: #999;
   margin-top: 2px;
 }
@@ -476,8 +473,7 @@ font-weight: 500;
 
 .amber-item-label {
   font-family: var(--font-mono), monospace;
-  font-size: 12px;
-font-weight: 500;
+  font-size: 10px;
   color: #b89a6a;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -485,7 +481,7 @@ font-weight: 500;
 }
 
 .amber-item-title {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: #111;
   margin-bottom: 0.35rem;
@@ -493,7 +489,7 @@ font-weight: 500;
 }
 
 .amber-item-body {
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.75;
   color: #555;
 }
@@ -537,7 +533,7 @@ font-weight: 500;
 }
 
 .finding-text {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.8;
   color: #333;
 }
@@ -576,7 +572,6 @@ font-weight: 500;
   width: 100%;
   border-collapse: collapse;
   font-size: 13px;
-  margin-top: 0.75rem;
   margin-bottom: 0.5rem;
 }
 
@@ -628,9 +623,8 @@ font-weight: 500;
 }
 
 /* Table caption */
-.post-content p.table-caption {
-  font-size: 13px;
-font-weight: 500;
+.table-caption {
+  font-size: 12px;
   color: #888;
   font-style: italic;
   margin-top: 0.5rem;
@@ -650,10 +644,6 @@ font-weight: 500;
   color: #999;
 }
 
-.post-content h2 + table {
-  margin-top: 1.25rem;
-}
-
 
 /* ============================================================
    14. CODE BLOCK CAPTION
@@ -665,8 +655,7 @@ font-weight: 500;
 .code-caption {
   border-left: 2px solid #b89a6a;
   padding-left: 0.75rem;
-  font-size: 13px;
-font-weight: 500;
+  font-size: 12px;
   color: #555;
   font-style: italic;
   margin-top: 0.75rem;
@@ -686,8 +675,7 @@ font-weight: 500;
   align-items: center;
   gap: 6px;
   font-family: var(--font-mono), monospace;
-  font-size: 13px;
-font-weight: 500;
+  font-size: 11px;
   color: #b89a6a;
   border: 1px solid #e8e4de;
   padding: 4px 10px;
@@ -814,8 +802,7 @@ font-weight: 500;
 .asset-caption {
   border-left: 2px solid #b89a6a;
   padding-left: 0.75rem;
-  font-size: 13px;
-font-weight: 500;
+  font-size: 12px;
   color: #555;
   font-style: italic;
   margin-bottom: 1.75rem;
@@ -856,7 +843,7 @@ font-weight: 500;
   font-size: 16px;
   color: #555;
   line-height: 1.8;
-  max-width: 100%;
+  max-width: 560px;
   margin-bottom: 2rem;
 }
 
@@ -1054,7 +1041,7 @@ font-weight: 500;
 [data-theme="dark"] .amber-item-body,
 [data-theme="dark"] .code-caption,
 [data-theme="dark"] .asset-caption,
-[data-theme="dark"] .post-content p.table-caption,
+[data-theme="dark"] .table-caption,
 [data-theme="dark"] .home-statement,
 [data-theme="dark"] .footer-name {
   color: #777;
@@ -1099,10 +1086,10 @@ font-weight: 500;
   color: #444;
 }
 .home-statement-primary {
-  font-size: 20px;
+  font-size: 17px;
   color: #111;
   line-height: 1.8;
-  max-width: 100%;
+  max-width: 580px;
   margin-bottom: 0.5rem;
   font-weight: 500;
 }
@@ -1123,7 +1110,7 @@ font-weight: 500;
 }
 
 .db-note-text {
-  font-size: 13px;
+  font-size: 12px;
   color: #999;
   font-style: italic;
 }
@@ -1189,14 +1176,4 @@ font-weight: 500;
   font-size: 13px;
   font-weight: 500;
   color: #b89a6a;
-}
-.stat {
-  font-family: var(--font-mono), monospace;
-  font-size: 14px;
-  font-weight: 500;
-  color: #b89a6a;
-}
-.main {
-  padding-bottom: 100px;
-  min-height: unset;
 }

@@ -4,22 +4,52 @@ title: "Cooling System Failure"
 layout: "single"
 ---
 
-On 29 May 2023, Batch 50, a Seekers Mekong Dry Gin batch produced on the 2000L still, failed quality control (QC). The cause was a cooling system mismatch. The 2000L still was connected to a cooling reservoir built for the 300L legacy system. Over the course of the run, coolant temperature rose by 1 to 2°C per hour. Temperature was visible during production, but it was not recorded and no alert was triggered.
+<p class="location-stamp">Phnom Penh, Cambodia · May 2023</p>
+<h1 class="page-title">Cooling System Failure</h1>
 
-The failure was detected 14 days later, when QC identified a deviation from the expected flavour profile. By then, botanicals for a second run had already been staged. Preparation was halted immediately, limiting the blast radius to one batch. During the run itself, temperature drift remained visible but unrecorded. Without that intervention, five batches could have been produced under the same conditions before the first failure was identified.
+<p class="home-statement-primary">Temperature was visible during production, but it was not recorded and no alert was triggered.</p>
 
-**Detection latency:** 14 days. Distillate output temperature was visible on the dashboard during the run, but no data was retained and no threshold was monitored. The only surviving data point was 61.8°C, noted manually at run completion.
+<p class="body-p">On 29 May 2023, Batch 50, a Seekers Mekong Dry Gin batch produced on the 2000L still, failed post-production quality control. The failure was detected 14 days later. By then, botanicals for a second run had already been staged. Preparation was halted, limiting the blast radius to one batch.</p>
 
-**Blast radius:** One batch quarantined. Five planned. Stopping before the next run began prevented four additional batches from being produced  under the same conditions.
+<hr>
 
-**What changed:** Coolant reservoir temperature is now instrumented and monitored during production.
+<div class="signals-row">
+  <div class="signal-cell">
+    <div class="signal-label">Detection Latency</div>
+    <div class="signal-value">14 days</div>
+    <div class="signal-sub">Only surviving reading: 61.8°C</div>
+  </div>
+  <div class="signal-cell">
+    <div class="signal-label">Blast Radius</div>
+    <div class="signal-value">1 batch</div>
+    <div class="signal-sub">5 planned — stopped before next run</div>
+  </div>
+  <div class="signal-cell">
+    <div class="signal-label">What Changed</div>
+    <div class="signal-value-sm">Coolant now monitored</div>
+    <div class="signal-sub">Reservoir instrumented during production</div>
+  </div>
+</div>
 
+<div class="subpage-list">
+  <a href="/operations-portfolio/seekers/cooling-system-failure/systems-context/" class="subpage-item">
+    <span>Systems Context</span><span class="subpage-arrow">→</span>
+  </a>
+  <a href="/operations-portfolio/seekers/cooling-system-failure/discovery-timeline/" class="subpage-item">
+    <span>Discovery Timeline</span><span class="subpage-arrow">→</span>
+  </a>
+  <a href="/operations-portfolio/seekers/cooling-system-failure/root-cause-analysis/" class="subpage-item">
+    <span>Root Cause Analysis</span><span class="subpage-arrow">→</span>
+  </a>
+  <a href="/operations-portfolio/seekers/cooling-system-failure/impact-and-response/" class="subpage-item">
+    <span>Impact and Response</span><span class="subpage-arrow">→</span>
+  </a>
+  <a href="/operations-portfolio/seekers/cooling-system-failure/structural-improvements/" class="subpage-item">
+    <span>Structural Improvements</span><span class="subpage-arrow">→</span>
+  </a>
+</div>
 
----
-
-[Systems Context]({{< ref "/seekers/cooling-system-failure/systems-context/" >}}) | [Discovery Timeline]({{< ref "/seekers/cooling-system-failure/discovery-timeline/" >}}) | [Root Cause Analysis]({{< ref "/seekers/cooling-system-failure/root-cause-analysis/" >}}) | [Impact and Response]({{< ref "/seekers/cooling-system-failure/impact-and-response/" >}}) | [Structural Improvements]({{< ref "/seekers/cooling-system-failure/structural-improvements/" >}})
-
----
-
-
-[Download Postmortem (PDF)](/operations-portfolio/pdfs/Cooling_System_Failure_Investigation_Postmortem.pdf) | [Download Reconstruction (PDF)](/operations-portfolio/pdfs/Cooling_System_Failure_Investigation_Reconstruction.pdf)
+<div class="pdf-links">
+  <a href="/operations-portfolio/pdfs/Cooling_System_Failure_Investigation_Postmortem.pdf" class="ext-link" target="_blank" rel="noopener">[ Download Postmortem PDF → ]</a>
+  <a href="/operations-portfolio/pdfs/Cooling_System_Failure_Investigation_Reconstruction.pdf" class="ext-link" target="_blank" rel="noopener">[ Download Reconstruction PDF → ]</a>
+</div>

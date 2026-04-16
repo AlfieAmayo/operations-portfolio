@@ -2,6 +2,35 @@
 title: "Programme Overview"
 ---
 
+<div class="inline-title">
+  <a href="/operations-portfolio/red-lantern/" class="parent-title">Red Lantern Dining</a>
+  <span class="title-slash">/</span>
+  <span class="child-title">Programme Overview</span>
+</div>
+
+<div class="signals-2x2">
+  <div class="signal-cell">
+    <div class="signal-label">Lead time</div>
+    <div class="signal-value-sm">7 → 3 weeks</div>
+    <div class="signal-sub">Phase 1 reduction</div>
+  </div>
+  <div class="signal-cell">
+    <div class="signal-label">Cost reduction</div>
+    <div class="signal-value">29.80%</div>
+    <div class="signal-sub">GLS raw material</div>
+  </div>
+  <div class="signal-cell">
+    <div class="signal-label">Orders placed</div>
+    <div class="signal-value">18</div>
+    <div class="signal-sub">GLS ×10 · LYS ×8</div>
+  </div>
+  <div class="signal-cell">
+    <div class="signal-label">Phase 1 duration</div>
+    <div class="signal-value-sm">13 months</div>
+    <div class="signal-sub">Mar 2024 – Apr 2025</div>
+  </div>
+</div>
+
 ## The Programme
 
 Red Lantern Dining is a 14-site food and beverage franchise. No location had the equipment or space to produce drinks to order. I proposed a centralised bottled RTD programme: drinks made externally to a fixed specification, bottled, and distributed to all locations from one warehouse. I owned the programme end to end, from recipe development and factory setup through to logistics, cost optimisation, and delivery.
@@ -12,7 +41,9 @@ Two drinks completed the full programme cycle: Ginger Lime Sparkling and Lychee 
 
 Production moved through seven nodes: client sign-off, production at Apex Beverage, bulk transfer, carbonation and bottling at Crest Bottling, return transport, labelling, and delivery to the client warehouse.
 
-![Red Lantern Dining supply chain](/operations-portfolio/images/red-lantern/supply-chain.svg)
+<div class="asset-container">
+  <img src="/operations-portfolio/images/red-lantern/supply-chain.svg" alt="Supply chain structure — seven nodes from R&D sign-off to client warehouse">
+</div>
 
 ## The Visibility Problem
 
@@ -32,4 +63,4 @@ The dashboard reconstructs the Phase 1 operating history for both drinks: 18 ord
 
 It shows COGS movement, supplier reliability, and five investigation queries. These queries are designed to surface patterns that are not visible in the order-level view: hidden fragility, margin erosion, and future supply chain risk. OTIF (on time, in full) is the main delivery metric throughout. The dashboard is live on Vercel as a permanent, queryable record of Phase 1.
 
-[← Red Lantern Dining]({{< ref "/red-lantern/" >}})
+<a href="/operations-portfolio/red-lantern/dashboard/" class="ext-link">View Supply Chain Dashboard →</a>
