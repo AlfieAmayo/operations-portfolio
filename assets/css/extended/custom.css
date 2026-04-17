@@ -529,7 +529,8 @@ font-weight: 500;
 
 .finding-label {
   font-family: var(--font-mono), monospace;
-  font-size: 10px;
+  font-size: 12px;
+font-weight: 500;
   color: #b89a6a;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -553,7 +554,8 @@ font-weight: 500;
 
 .decision-label {
   font-family: var(--font-mono), monospace;
-  font-size: 10px;
+  font-size: 12px;
+font-weight: 500;
   color: #b89a6a;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -561,7 +563,7 @@ font-weight: 500;
 }
 
 .decision-text {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.8;
   color: #333;
 }
