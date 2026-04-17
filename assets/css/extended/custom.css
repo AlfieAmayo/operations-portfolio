@@ -1206,3 +1206,4 @@ font-weight: 500;
   padding-bottom: 100px;
   min-height: unset;
 }
+#theme-toggle { display: none; }
