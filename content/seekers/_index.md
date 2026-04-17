@@ -39,6 +39,6 @@ layout: "single"
 </div>
 
 <div class="db-note">
-  <a href="https://github.com/AlfieAmayo/seekers-db" class="ext-link">GitHub →</a>
+  <a href="https://github.com/AlfieAmayo/seekers-db" class="ext-link" target="_blank">GitHub →</a>  
   <span class="db-note-text">PostgreSQL database built retrospectively from production records.</span>
 </div>
