@@ -12,6 +12,7 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   math = false
   mermaid = true
+  defaultTheme = "light"
 
 [markup]
 [markup.goldmark]
