@@ -345,7 +345,8 @@ p.location-stamp {
 
 .meta-chip {
   font-family: var(--font-mono), monospace;
-  font-size: 11px;
+  font-size: 12px;
+font-weight: 500;
   color: #999;
   white-space: nowrap;
 }
@@ -358,7 +359,7 @@ p.location-stamp {
 /* Live tag for dashboard row */
 .live-tag {
   font-family: var(--font-mono), monospace;
-  font-size: 10px;
+  font-size: 13px;
   color: #b89a6a;
   border: 1px solid #b89a6a;
   padding: 3px 8px;
@@ -369,7 +370,8 @@ p.location-stamp {
 
 .live-sub {
   font-family: var(--font-mono), monospace;
-  font-size: 10px;
+  font-size: 12px;
+font-weight: 500;
   color: #999;
   margin-top: 2px;
 }
