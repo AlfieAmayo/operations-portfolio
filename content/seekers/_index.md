@@ -12,7 +12,7 @@ layout: "single"
 <p>The postmortems below show what happened, how each incident spread, and what changed.</p>
 
 <div class="incident-grid">
-  <a href="/operations-portfolio/seekers/juniper-contamination/" class="incident-row">
+  <a href="/seekers/juniper-contamination/" class="incident-row">
     <div class="incident-content">
       <div class="incident-num">/0.1</div>
       <div class="incident-title">Juniper Contamination</div>
@@ -24,7 +24,7 @@ layout: "single"
       <div class="meta-chip">batches <span class="meta-val">19–22</span></div>
     </div>
   </a>
-  <a href="/operations-portfolio/seekers/cooling-system-failure/" class="incident-row">
+  <a href="/seekers/cooling-system-failure/" class="incident-row">
     <div class="incident-content">
       <div class="incident-num">/0.2</div>
       <div class="incident-title">Cooling System Failure</div>

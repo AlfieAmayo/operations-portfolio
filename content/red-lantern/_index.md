@@ -11,7 +11,7 @@ A 14-site dining group with no drinks capability. I designed and delivered a cen
 The original tracker  ran on a shared Excel sheet sent by email. Between updates, no node had live visibility into what was happening upstream or downstream. The work below shows how the programme was built and where that visibility model broke down.
 
 <div class="incident-grid">
-  <a href="/operations-portfolio/red-lantern/framing-narrative/" class="incident-row">
+  <a href="/red-lantern/framing-narrative/" class="incident-row">
     <div class="incident-content">
       <div class="incident-num">/0.1</div>
       <div class="incident-title">Programme Overview</div>
@@ -23,7 +23,7 @@ The original tracker  ran on a shared Excel sheet sent by email. Between updates
       <div class="meta-chip">orders <span class="meta-val">18</span></div>
     </div>
   </a>
-  <a href="/operations-portfolio/red-lantern/dashboard/" class="incident-row">
+  <a href="/red-lantern/dashboard/" class="incident-row">
     <div class="incident-content">
       <div class="incident-num">/0.2</div>
       <div class="incident-title">Supply Chain Dashboard</div>

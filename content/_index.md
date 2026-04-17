@@ -7,7 +7,7 @@
 <p class="home-statement-secondary">This portfolio covers two production incidents traced from detection to root cause, and one supply chain programme built from scratch, all grounded in real operating data.</p>
 
 <div class="incident-grid">
-  <a href="/operations-portfolio/seekers/" class="incident-row">
+  <a href="/seekers/" class="incident-row">
     <div class="incident-content">
       <div class="incident-num">/0.1</div>
       <div class="incident-title">Seekers Spirits</div>
@@ -18,7 +18,7 @@
       <div class="meta-chip">database <span class="meta-val">PostgreSQL</span></div>
     </div>
   </a>
-  <a href="/operations-portfolio/red-lantern/" class="incident-row">
+  <a href="/red-lantern/" class="incident-row">
     <div class="incident-content">
       <div class="incident-num">/0.2</div>
       <div class="incident-title">Red Lantern Dining</div>

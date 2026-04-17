@@ -3,17 +3,17 @@ title: "Root Cause Analysis"
 ---
 
 <div class="inline-title">
-  <a href="/operations-portfolio/seekers/cooling-system-failure/" class="parent-title">Cooling System Failure</a>
+  <a href="/seekers/cooling-system-failure/" class="parent-title">Cooling System Failure</a>
   <span class="title-slash">/</span>
   <span class="child-title">Root Cause Analysis</span>
 </div>
 
 <nav class="subpage-nav">
-  <a href="/operations-portfolio/seekers/cooling-system-failure/systems-context/" class="snav-item">Systems Context</a>
-  <a href="/operations-portfolio/seekers/cooling-system-failure/discovery-timeline/" class="snav-item">Discovery Timeline</a>
-  <a href="/operations-portfolio/seekers/cooling-system-failure/root-cause-analysis/" class="snav-item active">Root Cause Analysis</a>
-  <a href="/operations-portfolio/seekers/cooling-system-failure/impact-and-response/" class="snav-item">Impact and Response</a>
-  <a href="/operations-portfolio/seekers/cooling-system-failure/structural-improvements/" class="snav-item">Structural Improvements</a>
+  <a href="/seekers/cooling-system-failure/systems-context/" class="snav-item">Systems Context</a>
+  <a href="/seekers/cooling-system-failure/discovery-timeline/" class="snav-item">Discovery Timeline</a>
+  <a href="/seekers/cooling-system-failure/root-cause-analysis/" class="snav-item active">Root Cause Analysis</a>
+  <a href="/seekers/cooling-system-failure/impact-and-response/" class="snav-item">Impact and Response</a>
+  <a href="/seekers/cooling-system-failure/structural-improvements/" class="snav-item">Structural Improvements</a>
 </nav>
 
 ## Mechanism of Failure

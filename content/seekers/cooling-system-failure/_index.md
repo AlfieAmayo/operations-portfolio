@@ -32,24 +32,24 @@ layout: "single"
 </div>
 
 <div class="subpage-list">
-  <a href="/operations-portfolio/seekers/cooling-system-failure/systems-context/" class="subpage-item">
+  <a href="/seekers/cooling-system-failure/systems-context/" class="subpage-item">
     <span>Systems Context</span><span class="subpage-arrow">→</span>
   </a>
-  <a href="/operations-portfolio/seekers/cooling-system-failure/discovery-timeline/" class="subpage-item">
+  <a href="/seekers/cooling-system-failure/discovery-timeline/" class="subpage-item">
     <span>Discovery Timeline</span><span class="subpage-arrow">→</span>
   </a>
-  <a href="/operations-portfolio/seekers/cooling-system-failure/root-cause-analysis/" class="subpage-item">
+  <a href="/seekers/cooling-system-failure/root-cause-analysis/" class="subpage-item">
     <span>Root Cause Analysis</span><span class="subpage-arrow">→</span>
   </a>
-  <a href="/operations-portfolio/seekers/cooling-system-failure/impact-and-response/" class="subpage-item">
+  <a href="/seekers/cooling-system-failure/impact-and-response/" class="subpage-item">
     <span>Impact and Response</span><span class="subpage-arrow">→</span>
   </a>
-  <a href="/operations-portfolio/seekers/cooling-system-failure/structural-improvements/" class="subpage-item">
+  <a href="/seekers/cooling-system-failure/structural-improvements/" class="subpage-item">
     <span>Structural Improvements</span><span class="subpage-arrow">→</span>
   </a>
 </div>
 
 <div class="pdf-links">
-  <a href="/operations-portfolio/pdfs/Cooling_System_Failure_Investigation_Postmortem.pdf" class="ext-link" target="_blank" rel="noopener">[ Download Postmortem PDF → ]</a>
-  <a href="/operations-portfolio/pdfs/Cooling_System_Failure_Investigation_Reconstruction.pdf" class="ext-link" target="_blank" rel="noopener">[ Download Reconstruction PDF → ]</a>
+  <a href="/pdfs/Cooling_System_Failure_Investigation_Postmortem.pdf" class="ext-link" target="_blank" rel="noopener">[ Download Postmortem PDF → ]</a>
+  <a href="/pdfs/Cooling_System_Failure_Investigation_Reconstruction.pdf" class="ext-link" target="_blank" rel="noopener">[ Download Reconstruction PDF → ]</a>
 </div>

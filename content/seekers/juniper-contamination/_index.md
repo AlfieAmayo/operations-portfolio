@@ -33,23 +33,23 @@ The investigation confirmed the contamination was isolated to a single lot. I qu
 </div>
 
 <div class="subpage-list">
-  <a href="/operations-portfolio/seekers/juniper-contamination/systems-context/" class="subpage-item">
+  <a href="/seekers/juniper-contamination/systems-context/" class="subpage-item">
     <span>Systems Context</span><span class="subpage-arrow">→</span>
   </a>
-  <a href="/operations-portfolio/seekers/juniper-contamination/discovery-timeline/" class="subpage-item">
+  <a href="/seekers/juniper-contamination/discovery-timeline/" class="subpage-item">
     <span>Discovery Timeline</span><span class="subpage-arrow">→</span>
   </a>
-  <a href="/operations-portfolio/seekers/juniper-contamination/root-cause-analysis/" class="subpage-item">
+  <a href="/seekers/juniper-contamination/root-cause-analysis/" class="subpage-item">
     <span>Five Whys Analysis</span><span class="subpage-arrow">→</span>
   </a>
-  <a href="/operations-portfolio/seekers/juniper-contamination/impact-and-response/" class="subpage-item">
+  <a href="/seekers/juniper-contamination/impact-and-response/" class="subpage-item">
     <span>Impact and Response</span><span class="subpage-arrow">→</span>
   </a>
-  <a href="/operations-portfolio/seekers/juniper-contamination/structural-improvements/" class="subpage-item">
+  <a href="/seekers/juniper-contamination/structural-improvements/" class="subpage-item">
     <span>Structural Improvements</span><span class="subpage-arrow">→</span>
   </a>
 </div>
 
 <div style="margin-top: 2rem;">
-<a href="/operations-portfolio/pdfs/Juniper_Contamination_Investigation_Postmortem.pdf" class="ext-link" target="_blank" rel="noopener">[ Download Postmortem PDF → ]</a>
+<a href="/pdfs/Juniper_Contamination_Investigation_Postmortem.pdf" class="ext-link" target="_blank" rel="noopener">[ Download Postmortem PDF → ]</a>
 </div>

@@ -3,17 +3,17 @@ title: "Structural Improvements"
 ---
 
 <div class="inline-title">
-  <a href="/operations-portfolio/seekers/cooling-system-failure/" class="parent-title">Cooling System Failure</a>
+  <a href="/seekers/cooling-system-failure/" class="parent-title">Cooling System Failure</a>
   <span class="title-slash">/</span>
   <span class="child-title">Structural Improvements</span>
 </div>
 
 <nav class="subpage-nav">
-  <a href="/operations-portfolio/seekers/cooling-system-failure/systems-context/" class="snav-item">Systems Context</a>
-  <a href="/operations-portfolio/seekers/cooling-system-failure/discovery-timeline/" class="snav-item">Discovery Timeline</a>
-  <a href="/operations-portfolio/seekers/cooling-system-failure/root-cause-analysis/" class="snav-item">Root Cause Analysis</a>
-  <a href="/operations-portfolio/seekers/cooling-system-failure/impact-and-response/" class="snav-item">Impact and Response</a>
-  <a href="/operations-portfolio/seekers/cooling-system-failure/structural-improvements/" class="snav-item active">Structural Improvements</a>
+  <a href="/seekers/cooling-system-failure/systems-context/" class="snav-item">Systems Context</a>
+  <a href="/seekers/cooling-system-failure/discovery-timeline/" class="snav-item">Discovery Timeline</a>
+  <a href="/seekers/cooling-system-failure/root-cause-analysis/" class="snav-item">Root Cause Analysis</a>
+  <a href="/seekers/cooling-system-failure/impact-and-response/" class="snav-item">Impact and Response</a>
+  <a href="/seekers/cooling-system-failure/structural-improvements/" class="snav-item active">Structural Improvements</a>
 </nav>
 
 Four changes followed the incident. Each was designed to close a specific failure mode exposed by the investigation.

@@ -3,7 +3,7 @@ title: "Programme Overview"
 ---
 
 <div class="inline-title">
-  <a href="/operations-portfolio/red-lantern/" class="parent-title">Red Lantern Dining</a>
+  <a href="/red-lantern/" class="parent-title">Red Lantern Dining</a>
   <span class="title-slash">/</span>
   <span class="child-title">Programme Overview</span>
 </div>
@@ -42,7 +42,7 @@ Two drinks completed the full programme cycle: Ginger Lime Sparkling and Lychee 
 The supply chain  moved through seven nodes: client sign-off, production at Apex Beverage, bulk transfer, carbonation and bottling at Crest Bottling, return transport, labelling, and delivery to the client warehouse.
 
 <div class="asset-container">
-  <img src="/operations-portfolio/images/red-lantern/supply-chain.svg" alt="Supply chain structure — seven nodes from R&D sign-off to client warehouse">
+  <img src="/images/red-lantern/supply-chain.svg" alt="Supply chain structure — seven nodes from R&D sign-off to client warehouse">
 </div>
 
 ## The Visibility Problem
@@ -63,4 +63,4 @@ The dashboard reconstructs the Phase 1 operating history for both drinks: 18 ord
 
 It shows COGS movement, supplier reliability, and five investigation queries designed to surface patterns not visible in the order-level view: hidden fragility, margin erosion, and future supply chain risk. OTIF (on time, in full) is the main delivery metric throughout. The dashboard is live on Vercel as a permanent, queryable record of Phase 1.
 
-<a href="/operations-portfolio/red-lantern/dashboard/" class="ext-link">View Supply Chain Dashboard →</a>
+<a href="/red-lantern/dashboard/" class="ext-link">View Supply Chain Dashboard →</a>

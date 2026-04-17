@@ -4,17 +4,17 @@ layout: "single"
 ---
 
 <div class="inline-title">
-  <a href="/operations-portfolio/seekers/juniper-contamination/" class="parent-title">Juniper Contamination</a>
+  <a href="/seekers/juniper-contamination/" class="parent-title">Juniper Contamination</a>
   <span class="title-slash">/</span>
   <span class="child-title">Discovery Timeline</span>
 </div>
 
 <nav class="subpage-nav">
-  <a href="/operations-portfolio/seekers/juniper-contamination/systems-context/" class="snav-item">Systems Context</a>
-  <a href="/operations-portfolio/seekers/juniper-contamination/discovery-timeline/" class="snav-item active">Discovery Timeline</a>
-  <a href="/operations-portfolio/seekers/juniper-contamination/root-cause-analysis/" class="snav-item">Five Whys Analysis</a>
-  <a href="/operations-portfolio/seekers/juniper-contamination/impact-and-response/" class="snav-item">Impact and Response</a>
-  <a href="/operations-portfolio/seekers/juniper-contamination/structural-improvements/" class="snav-item">Structural Improvements</a>
+  <a href="/seekers/juniper-contamination/systems-context/" class="snav-item">Systems Context</a>
+  <a href="/seekers/juniper-contamination/discovery-timeline/" class="snav-item active">Discovery Timeline</a>
+  <a href="/seekers/juniper-contamination/root-cause-analysis/" class="snav-item">Five Whys Analysis</a>
+  <a href="/seekers/juniper-contamination/impact-and-response/" class="snav-item">Impact and Response</a>
+  <a href="/seekers/juniper-contamination/structural-improvements/" class="snav-item">Structural Improvements</a>
 </nav>
 
 ## Pre-Discovery: Batches Pass Initial QC

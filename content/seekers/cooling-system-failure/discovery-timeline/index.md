@@ -3,17 +3,17 @@ title: "Discovery Timeline"
 ---
 
 <div class="inline-title">
-  <a href="/operations-portfolio/seekers/cooling-system-failure/" class="parent-title">Cooling System Failure</a>
+  <a href="/seekers/cooling-system-failure/" class="parent-title">Cooling System Failure</a>
   <span class="title-slash">/</span>
   <span class="child-title">Discovery Timeline</span>
 </div>
 
 <nav class="subpage-nav">
-  <a href="/operations-portfolio/seekers/cooling-system-failure/systems-context/" class="snav-item">Systems Context</a>
-  <a href="/operations-portfolio/seekers/cooling-system-failure/discovery-timeline/" class="snav-item active">Discovery Timeline</a>
-  <a href="/operations-portfolio/seekers/cooling-system-failure/root-cause-analysis/" class="snav-item">Root Cause Analysis</a>
-  <a href="/operations-portfolio/seekers/cooling-system-failure/impact-and-response/" class="snav-item">Impact and Response</a>
-  <a href="/operations-portfolio/seekers/cooling-system-failure/structural-improvements/" class="snav-item">Structural Improvements</a>
+  <a href="/seekers/cooling-system-failure/systems-context/" class="snav-item">Systems Context</a>
+  <a href="/seekers/cooling-system-failure/discovery-timeline/" class="snav-item active">Discovery Timeline</a>
+  <a href="/seekers/cooling-system-failure/root-cause-analysis/" class="snav-item">Root Cause Analysis</a>
+  <a href="/seekers/cooling-system-failure/impact-and-response/" class="snav-item">Impact and Response</a>
+  <a href="/seekers/cooling-system-failure/structural-improvements/" class="snav-item">Structural Improvements</a>
 </nav>
 
 ## Before the Run
@@ -37,7 +37,7 @@ At the end of the run, the distillate felt unusually hot, and I noted a dashboar
 Post-incident reconstruction showed that Batch 50 diverged from the control runs early and continuously, even before the final threshold crossing.
 
 <div class="asset-container">
-  <img src="/operations-portfolio/images/seekers/coolant-temperature-divergence.svg" alt="Coolant temperature divergence chart">
+  <img src="/images/seekers/coolant-temperature-divergence.svg" alt="Coolant temperature divergence chart">
 </div>
 <div class="asset-caption">Fig. 1.1: Coolant temperature progression — Batch 50 vs control (Batches 48, 49), showing early and continuous divergence from baseline. All data reconstructed post-incident.</div>
 

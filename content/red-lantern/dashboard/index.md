@@ -3,7 +3,7 @@ title: "Supply Chain Dashboard"
 ---
 
 <div class="inline-title">
-  <a href="/operations-portfolio/red-lantern/" class="parent-title">Red Lantern Dining</a>
+  <a href="/red-lantern/" class="parent-title">Red Lantern Dining</a>
   <span class="title-slash">/</span>
   <span class="child-title">Supply Chain Dashboard</span>
 </div>
@@ -47,4 +47,4 @@ The dashboard includes a query panel built around five operational questions. Th
 
 ---
 
-<a href="/operations-portfolio/red-lantern/framing-narrative/" class="ext-link">View Programme Overview →</a>
+<a href="/red-lantern/framing-narrative/" class="ext-link">View Programme Overview →</a>
