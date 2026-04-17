@@ -1207,3 +1207,14 @@ font-weight: 500;
   min-height: unset;
 }
 #theme-toggle { display: none; }
+
+/* ========================================================
+   22. MOBILE
+   Max-width 480px overrides for small screens.
+   ======================================================== */
+
+@media (max-width: 480px) {
+  .signal-value-sm {
+    font-size: 17px;
+  }
+}
