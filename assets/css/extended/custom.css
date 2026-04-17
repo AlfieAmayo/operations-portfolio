@@ -764,7 +764,8 @@ font-weight: 500;
 
 .cta-label {
   font-family: var(--font-mono), monospace;
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: 500;
   color: #b89a6a;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -779,7 +780,8 @@ font-weight: 500;
 }
 
 .cta-meta {
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 500;
   color: #888;
   margin-top: 2px;
 }

@@ -8,7 +8,7 @@ title: "Supply Chain Dashboard"
   <span class="child-title">Supply Chain Dashboard</span>
 </div>
 
-This dashboard reconstructs the Phase 1 operating history in a way the Excel tracker could not. OTIF is the primary delivery metric. COGs is shown order by order, with each inflection point tied to a specific decision. The data covers Apex Beverage, Crest Bottling, and seven suppliers. All figures are real. Client and supplier names are fictionalised.
+This dashboard reconstructs the Phase 1 operating history in a way the Excel tracker could not. OTIF is the primary delivery metric. COGs is shown order by order, with each inflection point tied to a specific decision. The data covers Apex Beverage, Crest Bottling, and seven suppliers. All figures are real or reconstructed from production records. Client and supplier names are fictionalised.
 
 <a href="https://kk-dashboard-wine.vercel.app" class="dashboard-cta" target="_blank">
   <div>
@@ -23,7 +23,7 @@ This dashboard reconstructs the Phase 1 operating history in a way the Excel tra
 
 ## Query Panel
 
-The dashboard includes a query panel built around five operational questions. These queries are designed to surface patterns that are not visible order by order — which interventions worked, where the programme was still fragile, and where reliability was chosen over margin.
+The dashboard includes a query panel built around five operational questions. These queries are designed to surface patterns that are not visible order by order: which interventions worked, where the programme remained fragile, and where reliability was chosen over margin.
 
 <div class="amber-item">
   <div class="amber-item-title">What changed, and did it actually work?</div>
