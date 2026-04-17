@@ -1217,4 +1217,12 @@ font-weight: 500;
   .signal-value-sm {
     font-size: 17px;
   }
+.footer-inner {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
 }
