@@ -13,6 +13,11 @@ layout: "single"
 
 <hr>
 
+<div class="asset-container">
+<img src="/images/cooling-circuit.svg" alt="Cooling circuit schematic — 2000L still, Seekers Spirits, 2023" width="680" height="420" style="width:100%;height:auto;display:block;">
+</div>
+<p class="asset-caption">Cooling circuit schematic. The reservoir was designed for the 300L still and reused without modification on the 2000L still.</p>
+
 <div class="signals-row">
   <div class="signal-cell">
     <div class="signal-label">Detection Latency</div>
