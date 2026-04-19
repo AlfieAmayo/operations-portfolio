@@ -26,6 +26,11 @@ The 2000L still used a main condenser and pre-cooler connected to a shared coola
 
 This created a gradual rise in coolant temperature during long runs, with no mechanism to detect or record it.
 
+<div class="asset-container">
+<img src="/images/cooling-circuit.svg" alt="Cooling circuit schematic — 2000L still, Seekers Spirits, 2023" width="680" height="420" style="width:100%;height:auto;display:block;">
+</div>
+<p class="asset-caption">Cooling circuit schematic. The reservoir was designed for the 300L still and reused without modification on the 2000L still.</p>
+
 ## Observability Gaps
 
 Two observability gaps defined both the failure and the investigation.
