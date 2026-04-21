@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Alfie Amayo — Operations Portfolio"
 theme = "PaperMod"
 
+googleAnalytics = "G-MLF07WW1LK"
+
 [params]
   description = "Operational investigations portfolio — Seekers Spirits and Red Lantern Dining"
   ShowReadingTime = false
