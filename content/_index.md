@@ -3,30 +3,32 @@
   <div class="identity-role">OPERATIONS · NEW YORK / SOUTHEAST ASIA</div>
 </div>
 
-<p class="home-statement-primary">I investigate operational failures, close observability gaps, and build systems that hold up when conditions change.</p>
-<p class="home-statement-secondary">This portfolio covers two production incidents traced from detection to root cause, and one supply chain programme built from scratch, all grounded in real operating data.</p>
+<p class="home-statement">I find where operations break down, work out why, and build the systems that stop it happening again.</p>
 
-<div class="incident-grid">
-  <a href="/seekers/" class="incident-row">
-    <div class="incident-content">
-      <div class="incident-num">/0.1</div>
-      <div class="incident-title">Seekers Spirits</div>
-      <div class="incident-desc">Two production incidents worked through from first signal to root cause, containment, and recovery. Botanical contamination and cooling system failure, supported by a purpose-built PostgreSQL database.</div>
+<a href="/seekers/" class="section-row">
+  <div class="section-row-num">/0.1</div>
+  <div class="section-row-body">
+    <div class="section-row-title">Seekers Spirits</div>
+    <div class="section-row-desc">Two production incidents investigated from detection to root cause. Botanical contamination and cooling system failure, supported by a purpose-built PostgreSQL database.</div>
+    <div class="section-row-pills">
+      <span class="section-pill">incidents: 2</span>
+      <span class="section-pill">56-day detection lag</span>
+      <span class="section-pill">database: PostgreSQL</span>
     </div>
-    <div class="incident-meta">
-      <div class="meta-chip">incidents <span class="meta-val">2</span></div>
-      <div class="meta-chip">database <span class="meta-val">PostgreSQL</span></div>
+  </div>
+  <div class="section-row-cta">View section →</div>
+</a>
+
+<a href="/red-lantern/" class="section-row">
+  <div class="section-row-num">/0.2</div>
+  <div class="section-row-body">
+    <div class="section-row-title">Red Lantern Dining</div>
+    <div class="section-row-desc">Designed and delivered a bottled RTD supply chain for a 14-site dining group. Lead time cut from 7 to 3 weeks. Live dashboard tracking supplier performance and delivery.</div>
+    <div class="section-row-pills">
+      <span class="section-pill">14 sites</span>
+      <span class="section-pill">lead time 7→3 weeks</span>
+      <span class="section-pill section-pill-live">dashboard live ↗</span>
     </div>
-  </a>
-  <a href="/red-lantern/" class="incident-row">
-    <div class="incident-content">
-      <div class="incident-num">/0.2</div>
-      <div class="incident-title">Red Lantern Dining</div>
-      <div class="incident-desc">A supply chain programme built from scratch for a 14 site dining group, bringing visibility to supplier performance, production flow, and delivery reliability.</div>
-    </div>
-    <div class="incident-meta">
-      <div class="meta-chip">orders <span class="meta-val">18</span></div>
-      <div class="meta-chip">dashboard <span class="meta-val">live ↗</span></div>
-    </div>
-  </a>
-</div>
+  </div>
+  <div class="section-row-cta">View section ↗</div>
+</a>
